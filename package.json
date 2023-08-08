@@ -1,0 +1,23 @@
+{
+  "name": "remark-emoji-export-issue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "pnpm run -r test"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.8",
+    "prettier": "^3.0.1",
+    "remark-emoji": "^3.1.2",
+    "remark-html": "^15.0.2",
+    "remark-parse": "^10.0.2",
+    "typescript": "^5.1.6",
+    "unified": "^10.1.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "remark-emoji@3.1.2": "patches/remark-emoji@3.1.2.patch"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+diff --git a/package.json b/package.json
+index 0e33d6c8d9a65a53dadd6a2f6c32b630fc61a47a..57b76fd975b8b469218b8490d2078d0974559ec3 100644
+--- a/package.json
++++ b/package.json
+@@ -7,12 +7,11 @@
+   },
+   "description": "Emoji transformer plugin for Remark",
+   "exports": {
+-    ".": {
+-      "import": {
+-        "types": "./types/index.d.ts",
+-        "default": "./index.js"
+-      }
+-    }
++    "import": {
++      "types": "./types/index.d.ts",
++      "default": "./index.js"
++    },
++    "default": "./index.js"
+   },
+   "scripts": {
+     "eslint": "eslint .",

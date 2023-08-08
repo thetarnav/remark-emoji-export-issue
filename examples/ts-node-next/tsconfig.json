@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ESNext",
+    "newLine": "LF",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "types": ["node"]
+  }
+}

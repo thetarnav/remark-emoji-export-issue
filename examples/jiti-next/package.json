@@ -1,0 +1,13 @@
+{
+  "name": "jiti-next",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "jiti index.ts"
+  },
+  "dependencies": {
+    "jiti": "^1.19.1"
+  }
+}

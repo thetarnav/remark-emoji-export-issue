@@ -1,0 +1,12 @@
+{
+  "name": "tsx",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "tsx index.ts"
+  },
+  "dependencies": {
+    "tsx": "^3.12.7"
+  }
+}

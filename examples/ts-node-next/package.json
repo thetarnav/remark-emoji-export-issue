@@ -1,0 +1,12 @@
+{
+  "name": "ts-node-next",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --loader ts-node/esm index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
